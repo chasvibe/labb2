@@ -1,4 +1,4 @@
-## Dice game
+### Dice game
 
 # 1. random nummer
 # 2. insättning pengar
