@@ -11,7 +11,6 @@ def bet(user_deposition, user_bet):
     return user_deposition - user_bet
 
 
-
 print("""
                             Time to guess!
            Your job is to guess a number between '1' and '40'
@@ -58,7 +57,7 @@ while deposition > 0:
             try:
                 guess = eval(input("\t\t\t  Please enter a guess:\n\t\t\t\t  "))
                 if counter == 0:
-                    print("\t\t\t  Sorry your guesses ran out. . .")
+                    print("\t\t      Sorry your guesses ran out. . .")
                     new_user_deposition -= user_bet
                     deposition = new_user_deposition
                     break
@@ -87,16 +86,16 @@ while deposition > 0:
                     print("\t\t\t    Sorry, too high. . .")
                     print(f"\t\t\tYou have {counter} guesses left. . .")
                     counter -= 1
-            except NameError:
-                print("\tPlease try guessing a whole number between '1' and '40'")
+            #except NameError:
+            #    print("\tPlease try guessing a whole number between '1' and '40'")
             except TypeError:
                 print("\tPlease try guessing a whole number between '1' and '40'")
             except KeyboardInterrupt:
                 print("\tPlease try guessing a whole number between '1' and '40'")
             except SyntaxError:
                 print("\tPlease try guessing a whole number between '1' and '40'")
-    except NameError:
-        print("\tPlease try guessing a whole number between '1' and '40'")
+    #except NameError:
+    #    print("\tPlease try guessing a whole number between '1' and '40'")
     except TypeError:
         print("\tPlease try guessing a whole number between '1' and '40'")
     except KeyboardInterrupt:
@@ -105,4 +104,4 @@ while deposition > 0:
         print("\tPlease try guessing a whole number between '1' and '40'")
 
 
-print("Thank you for playing! Come back soon!")
+print("\t\t  Thank you for playing! Come back soon!")
