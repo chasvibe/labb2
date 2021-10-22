@@ -1,16 +1,9 @@
-### Dice game
-
-# 1. random nummer
-# 2. insättning pengar
-# 3. gissning
-# 3a. Programmet berättar om gissningen är för hög eller för låg
-# 3b. ju snabbare man gissar rätt, desto mer pengar får man
-# 4. rätt eller fel
-# 5. vad händer om rätt eller fel
-
-# Funktion för random nummer
-# Funktion för att ta input från användare
-# Funktion för att spara användarens "pengar"
-# Funktion för att räkna ut om numret är för högt eller för lågt
-# Funktion för att räkna HUR många gånger användaren har gissat innan hen får rätt
-# Funktion för att returna hur mycket man vinner/ om man förlorat
+# DevOps grupp 6 labb 2c
+#
+#
+# Daniel (lapingold) = Ta reda på om ett tal är ett primtal
+# Sara (sararazm) = Ta reda på vad tal1 upphöjt till tal2 blir
+# Abdullah (Abbe) = Ta två tal och multiplicera dem
+# Lawen (LawenKadir) = Ta två tal och addera dem 
+# Anton (antonarntsen) = Ta tal1 och dividera med tal2
+# Viktor (chasvibe) = Skapa bash skript för att lägga in alla funktioner in i en .py fil
