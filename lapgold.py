@@ -26,6 +26,5 @@ def primes():
             counter += 1
             print(i, "is prime. ")
         i += 1
-    print(f"\nTotal number of primes {counter}\n")
-
-primes()
+    return f"\nTotal number of primes {counter}\n"
+    
