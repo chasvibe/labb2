@@ -4,7 +4,7 @@ def primes():
     A prime number is a natural number with exactly 2 factors
     wich means that it can only be diveded by 1 and itself,
     and it's not evenly divisible by any other whole number.
-    
+
     Here you can search for how many prime numbers there are 
     within a span and which numbers within that span that
     are prime. Search between a defined starting number
@@ -27,4 +27,3 @@ def primes():
             print(i, "is prime. ")
         i += 1
     return f"\nTotal number of primes {counter}\n"
-    

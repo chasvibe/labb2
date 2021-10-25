@@ -8,5 +8,3 @@ def upphojtill(a,b):
         theAnswer = theAnswer * a
         i = i +1
     return theAnswer
-
-print(upphojtill(a,b))
