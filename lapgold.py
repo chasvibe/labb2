@@ -16,7 +16,7 @@ def primes():
     counter = 0
 
     while(i < end_nr):
-        if i == 0 : i += 2 
+        if i == 0 : i += 2
         elif i == 1 : i += 1
         j = 2
         while(j <= (i/j)):

@@ -1,3 +1,27 @@
+import platform
+import psutil
+import math
+
+
+def GetPCInfo():
+    Result = "\nName: "
+    Result += platform.node()
+    Result += "\nOS: "
+    Result += platform.platform()
+    Result += "\nCPU: "
+    Result += platform.processor()
+    Result += "\nArchitecture: "
+    Result += platform.machine()
+    Result += "\nMemory: "
+    Result += str(math.ceil(psutil.virtual_memory().total/(1024.**3))) + "GB"
+    Result += "\nMemory Usage: "
+    Result += str(psutil.virtual_memory().percent) + "%"
+    Result += "\nPython Version: "
+    Result += platform.python_version()
+    return Result
+print(GetPCInfo())
+
+
 def primes():
 
     print("""
@@ -16,7 +40,7 @@ def primes():
     counter = 0
 
     while(i < end_nr):
-        if i == 0 : i += 2 
+        if i == 0 : i += 2
         elif i == 1 : i += 1
         j = 2
         while(j <= (i/j)):
@@ -29,18 +53,17 @@ def primes():
     return f"\nTotal number of primes {counter}\n"
 
 
-print("Hello Mars")
-
-#a = int(input("Input your first number: "))
-#b = int(input("Input your seconde number: "))
-
-
-def upphojtill(a,b):
-    theAnswer = 1
-    for i in range(b):
-        theAnswer = theAnswer * a
-        i = i +1
-    return theAnswer
+def tokar(word: str):
+    '''Check if a string is a palindrome
+    Parameters: word
+    Returns: string that tells if word is a palindrome
+    Example:
+    tokar("Dallassallad")'''
+    stripped_word = word.replace('.', '').replace(' ', '')
+    if stripped_word.lower() == stripped_word[::-1].lower():
+        return f'{stripped_word} is a palindrome'
+    else:
+        return f'{stripped_word} is not a palindrome'
 
 
 def multiplication(a,b):
@@ -48,4 +71,3 @@ def multiplication(a,b):
 
 
 
-primes()
