@@ -4,7 +4,7 @@ def tokar(word: str):
     Returns: string that tells if word is a palindrome
     Example:
     tokar("Dallassallad")'''
-    stripped_word = word.replace('.', '').replace(' ', '')
+    stripped_word = word.replace('.', '').replace(' ', ''.replace(',', '')
     if stripped_word.lower() == stripped_word[::-1].lower():
         return f'{stripped_word} is a palindrome'
     else:
