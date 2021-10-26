@@ -15,4 +15,3 @@ echo "" >> output.py
 echo "" >> output.py
 #cat LawenKadir.py >> output.py
 echo "" >> output.py
-echo "Script run as expected!"

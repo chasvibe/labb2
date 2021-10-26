@@ -22,7 +22,7 @@ def GetPCInfo():
 print(GetPCInfo())
 
 
-def primes():
+def lapgold():
 
     print("""
     A prime number is a natural number with exactly 2 factors
