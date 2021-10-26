@@ -9,5 +9,3 @@ def tokar(word: str):
         return f'"{word}"" is a palindrome'
     else:
         return f'"{word}"" is not a palindrome'
-
-print(tokar("Mus rev inuits öra, sa röst i universum"))
