@@ -66,8 +66,4 @@ def tokar(word: str):
         return f'{stripped_word} is not a palindrome'
 
 
-def multiplication(a,b):
-    return a*b
-
-
 

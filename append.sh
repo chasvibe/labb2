@@ -10,8 +10,7 @@ echo "" >> output.py
 cat tokar.py >> output.py
 echo "" >> output.py
 echo "" >> output.py
-cat abbe.py >> output.py
-echo "" >> output.py
-echo "" >> output.py
 #cat LawenKadir.py >> output.py
 echo "" >> output.py
+
+> after.py
