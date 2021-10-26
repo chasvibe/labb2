@@ -6,6 +6,6 @@ def tokar(word: str):
     tokar("Dallassallad")'''
     stripped_word = word.replace('.', '').replace(' ', ''.replace(',', '')
     if stripped_word.lower() == stripped_word[::-1].lower():
-        return f'{stripped_word} is a palindrome'
+        return f'{word} is a palindrome'
     else:
-        return f'{stripped_word} is not a palindrome'
+        return f'{word} is not a palindrome'
