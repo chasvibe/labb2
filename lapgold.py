@@ -26,7 +26,4 @@ def lapgold():
             counter += 1
             print(i, "is prime. ")
         i += 1
-    return f"\nTotal number of primes {counter}\n"
-
-
-lapgold()
+    print(f"\nTotal number of primes {counter}\n")

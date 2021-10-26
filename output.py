@@ -19,7 +19,6 @@ def GetPCInfo():
     Result += "\nPython Version: "
     Result += platform.python_version()
     return Result
-print(GetPCInfo())
 
 
 def lapgold():
@@ -50,7 +49,7 @@ def lapgold():
             counter += 1
             print(i, "is prime. ")
         i += 1
-    return f"\nTotal number of primes {counter}\n"
+    print(f"\nTotal number of primes {counter}\n")
 
 
 def tokar(word: str):
@@ -59,11 +58,44 @@ def tokar(word: str):
     Returns: string that tells if word is a palindrome
     Example:
     tokar("Dallassallad")'''
-    stripped_word = word.replace('.', '').replace(' ', '')
+    stripped_word = word.replace('.', '').replace(' ', '').replace(',', '')
     if stripped_word.lower() == stripped_word[::-1].lower():
-        return f'{stripped_word} is a palindrome'
+        return f'{word} is a palindrome'
     else:
-        return f'{stripped_word} is not a palindrome'
+        return f'{word} is not a palindrome'
 
 
 
+print("""
+	From Ejo's function,
+	Your PC specs are:
+""")
+print(GetPCInfo())
+print("""
+
+	END OF FUNCTION
+""")
+
+print("""
+	From Lapingold's function,
+	This will determine wether
+	a range between two numbers
+	are prime numbers:
+""")
+lapgold()
+print("""
+
+	END OF FUNCTION
+""")
+
+print("""
+	From Tokar's function,
+	This will determine if
+	the string (sentence)
+			you enter is a palindrome:
+""")
+print(tokar("Mus rev inuits öra, sa röst i universum"))
+print("""
+
+	END OF FUNCTION
+""")

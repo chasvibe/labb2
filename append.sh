@@ -12,5 +12,6 @@ echo "" >> output.py
 echo "" >> output.py
 #cat LawenKadir.py >> output.py
 echo "" >> output.py
+cat after.py >> output.py
 
-> after.py
+python3 output.py
