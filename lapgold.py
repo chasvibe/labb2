@@ -1,4 +1,4 @@
-def lapgold():
+def primes():
 
     print("""
     A prime number is a natural number with exactly 2 factors
@@ -16,7 +16,7 @@ def lapgold():
     counter = 0
 
     while(i < end_nr):
-        if i == 0 : i += 2
+        if i == 0 : i += 2 
         elif i == 1 : i += 1
         j = 2
         while(j <= (i/j)):
@@ -26,4 +26,4 @@ def lapgold():
             counter += 1
             print(i, "is prime. ")
         i += 1
-    print(f"\nTotal number of primes {counter}\n")
+    return f"\nTotal number of primes {counter}\n"

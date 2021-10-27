@@ -1,1 +1,1 @@
-## Grupp 7
+# DevOps grupp 7 labb 2c
