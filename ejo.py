@@ -19,4 +19,3 @@ def GetPCInfo():
     Result += "\nPython Version: "
     Result += platform.python_version()
     return Result
-print(GetPCInfo())
