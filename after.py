@@ -24,7 +24,7 @@ print("""
 	From Tokar's function,
 	This will determine if
 	the string (sentence)
-			you enter is a palindrome:
+	you enter is a palindrome:
 """)
 print(tokar("Mus rev inuits öra, sa röst i universum"))
 print("""

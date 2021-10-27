@@ -60,9 +60,9 @@ def tokar(word: str):
     tokar("Dallassallad")'''
     stripped_word = word.replace('.', '').replace(' ', '').replace(',', '')
     if stripped_word.lower() == stripped_word[::-1].lower():
-        return f'{word} is a palindrome'
+        return f'"{word}" is a palindrome'
     else:
-        return f'{word} is not a palindrome'
+        return f'"{word}" is not a palindrome'
 
 
 
@@ -92,7 +92,7 @@ print("""
 	From Tokar's function,
 	This will determine if
 	the string (sentence)
-			you enter is a palindrome:
+	you enter is a palindrome:
 """)
 print(tokar("Mus rev inuits öra, sa röst i universum"))
 print("""
